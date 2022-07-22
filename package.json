@@ -1,0 +1,39 @@
+{
+  "name": "e2e-cypress-udemy",
+  "version": "1.0.0",
+  "description": "E2E Cypress Udemy course (/course/e2e-cypress).",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "test:open": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rendxn/udemy-cypress.git"
+  },
+  "keywords": [
+    "cypress",
+    "practice",
+    "ui-testing"
+  ],
+  "author": "Santiago Rendón <santirg2000@gmail.com> (Rendxn)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rendxn/udemy-cypress/issues"
+  },
+  "homepage": "https://github.com/Rendxn/udemy-cypress#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.7",
+    "@typescript-eslint/parser": "^5.30.7",
+    "cypress": "^10.3.1",
+    "eslint": "^8.20.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "typescript": "^4.7.4"
+  },
+  "volta": {
+    "node": "16.16.0"
+  }
+}
